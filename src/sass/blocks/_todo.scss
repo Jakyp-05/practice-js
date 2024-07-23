@@ -1,0 +1,19 @@
+.todo {
+  text-align: center;
+  ul {
+    list-style: none;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      .delete {
+        cursor: pointer;
+        color: red;
+      }
+      input:checked + span {
+        text-decoration: line-through;
+      }
+    }
+  }
+}

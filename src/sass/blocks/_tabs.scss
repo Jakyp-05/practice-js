@@ -1,0 +1,19 @@
+.tabs-container {
+  width: 600px;
+  margin: 30px auto;
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    button {
+      cursor: pointer;
+      width: 100%;
+      padding: 15px;
+      border: none;
+      margin: 2px;
+      &:disabled {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
